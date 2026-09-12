@@ -1,0 +1,158 @@
+{
+  "profile": {
+    "name": "Arshani D",
+    "title": "Second-Year Computer Science Student | AI/ML Enthusiast | Full Stack Developer",
+    "headline": "Bridging smart algorithms with seamless user experiences.",
+    "bio": "I am a passionate CS undergraduate exploring the intersection of Artificial Intelligence, Machine Learning, and Full Stack Development. With a solid foundation in C, C++, Python, and Database Management, I enjoy building solutions that are both intelligent and impactful.",
+    "highlights": [
+      "Currently diving deep into Machine Learning concepts and Full Stack technologies",
+      "Comfortable working with Python for data-driven applications",
+      "Experienced in Database design and management (MySQL, MongoDB, SQL)",
+      "Always eager to take on real-world challenges through projects and internships"
+    ],
+    "closing": "I believe the future belongs to those who can bridge the gap between smart algorithms and seamless user experiences — and that's exactly the developer I am working towards becoming.\n\n📩 Open to internships, collaborations, and meaningful conversations in Tech. Let's connect and build something great!",
+    "location": "Chennai, Tamil Nadu, India",
+    "email": "arshanid070110@gmail.com",
+    "phone": "8807812742",
+    "avatar": "/assets/profile.jpg",
+    "instagram_qr": "/assets/instagram_qr.png",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/arshani-d-220967381?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "github": "https://github.com/Arshani-cpu",
+      "instagram": "https://www.instagram.com/arsh_pixie?utm_source=qr&stkn=MXF1YXU2eGc1d2dlOQ=="
+    }
+  },
+  "skills": [
+    {
+      "category": "Web Development",
+      "icon": "code-slash",
+      "skills": ["HTML5", "CSS3", "JavaScript", "React.js (Basics)", "Django", "Node.js", "Express.js", "REST APIs"]
+    },
+    {
+      "category": "UI/UX Design",
+      "icon": "palette",
+      "skills": ["User Interface Design", "Canva", "Wireframing", "Responsive Web Layouts", "Dark Mode UI Systems", "Glassmorphism", "Micro-Animations"]
+    },
+    {
+      "category": "Mobile & Programming",
+      "icon": "phone",
+      "skills": ["C", "C++", "Python", "Mobile App Development Concepts", "Algorithm Design", "Data Structures"]
+    },
+    {
+      "category": "Databases & Tools",
+      "icon": "database",
+      "skills": ["MySQL", "MongoDB", "SQL", "VS Code", "Git & GitHub", "MS Office"]
+    }
+  ],
+  "experience": [
+    {
+      "role": "Green Skilling Intern",
+      "organization": "1M1B Green Internship",
+      "period": "Internship",
+      "type": "Sustainability & Climate Action",
+      "description": "Participated in a green skilling program focused on sustainability, climate action, and real-world project implementation. Created carbon credit simulation and environmental tracking tools."
+    },
+    {
+      "role": "Mentorship & Capabilities Trainee",
+      "organization": "Rise 4.0 Internship",
+      "period": "Skill Development",
+      "type": "Mentorship & Engineering Skills",
+      "description": "Contributed to a skill-development and mentorship program aimed at building industry-relevant capabilities, problem-solving, and full-stack software practices."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Engineering (B.E.) — Computer Science and Engineering",
+      "institution": "Easwari Engineering College (SRM Group)",
+      "period": "Second Year (Present)",
+      "score": "CGPA: 9.18",
+      "details": "Focused on Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, AI/ML fundamentals, and Web Engineering."
+    },
+    {
+      "degree": "Higher Secondary & Secondary Education",
+      "institution": "Vyasa Vidyalaya Matriculation Higher Secondary School",
+      "period": "Completed",
+      "score": "Excellence in Mathematics & Computer Science",
+      "details": "Strong academic foundation in Mathematics, Science, and introductory programming fundamentals."
+    }
+  ],
+  "projects": [
+    {
+      "id": "zero-net-navigator",
+      "title": "Zero Net Navigator",
+      "category": "Sustainability",
+      "tags": ["Carbon Credit", "Simulation", "HTML/CSS", "Python", "MySQL"],
+      "image": "/assets/zero_net_navigator.png",
+      "summary": "Simulated carbon offset marketplace enabling users to buy, sell, and retire carbon credits through an intuitive interface.",
+      "description": "Built a simulated carbon offset marketplace enabling users to buy, sell, and retire carbon credits through an intuitive interface. Designed a simulated ledger to track environmental impact, promoting sustainability awareness and climate action education. Demonstrated how technology can support transparent, educational carbon market experiences.",
+      "github": "https://github.com/Arshani-cpu"
+    },
+    {
+      "id": "launchpad-ai",
+      "title": "LaunchPad AI Startup Platform",
+      "category": "AI / Web",
+      "tags": ["AI/ML", "Django", "Startup Analytics", "Python", "Database"],
+      "image": "/assets/launchpad_ai.png",
+      "summary": "AI-driven startup management and decision-support platform for entrepreneurs to validate ideas and generate business plans.",
+      "description": "Developed an AI-driven startup management and decision-support platform for entrepreneurs to validate ideas and generate business plans. Implemented features for competitor monitoring, growth analysis, AI mentorship, and funding potential prediction. Consolidated operational infrastructure management into a single, unified dashboard.",
+      "github": "https://github.com/Arshani-cpu"
+    },
+    {
+      "id": "geonexa",
+      "title": "GeoNexa — Smart Mapping Solution",
+      "category": "AI / Web",
+      "tags": ["Geospatial", "Smart City", "CIT Hackathon", "GIS", "Python"],
+      "image": "https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=800&auto=format&fit=crop",
+      "summary": "Geospatial mapping and urban analytics platform designed for smart city infrastructure visualization.",
+      "description": "Developed GeoNexa for the CIT Hackathon to provide smart mapping, spatial data visualizer, and urban planning analytics. Facilitates interactive map overlays, zoning metrics, and data-driven infrastructure decisions.",
+      "github": "https://github.com/Arshani-cpu"
+    },
+    {
+      "id": "dayflow-hrms",
+      "title": "Dayflow HRMS",
+      "category": "Web",
+      "tags": ["Express.js", "Node.js", "MongoDB", "HR Management", "Odoo Hackathon"],
+      "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=800&auto=format&fit=crop",
+      "summary": "Full-stack Human Resource Management System for tracking employee lifecycles, attendance, and performance.",
+      "description": "Created Dayflow HRMS for the Odoo Hackathon. Provides employee onboarding, leave management, department directory, automated payroll calculations, and real-time attendance reporting.",
+      "github": "https://github.com/Arshani-cpu"
+    }
+  ],
+  "certifications": [
+    {
+      "title": "CS50: Introduction to Computer Science",
+      "issuer": "Harvard University",
+      "date": "Earned",
+      "icon": "award-fill",
+      "badge": "Harvard Certified"
+    },
+    {
+      "title": "Endpoint Security and Network Defense / Modern AI",
+      "issuer": "Cisco Networking Academy",
+      "date": "Earned",
+      "icon": "shield-check",
+      "badge": "Cisco Certified"
+    },
+    {
+      "title": "MongoDB Basics for Students & AI Strategy",
+      "issuer": "MongoDB",
+      "date": "Earned",
+      "icon": "database-fill-check",
+      "badge": "Database Expert"
+    },
+    {
+      "title": "Enhancing Soft Skills & The Joy of Computing using Python",
+      "issuer": "NPTEL",
+      "date": "Earned",
+      "icon": "patch-check-fill",
+      "badge": "NPTEL Certified"
+    },
+    {
+      "title": "Professional Skill Development",
+      "issuer": "Wadhwani Foundation & Google Courses",
+      "date": "Earned",
+      "icon": "star-fill",
+      "badge": "Verified"
+    }
+  ]
+}

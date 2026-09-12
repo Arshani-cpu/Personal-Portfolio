@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arshani D — Personal Portfolio | CS & AI/ML Developer</title>
+  <meta name="description" content="Portfolio of Arshani D - 2nd Year Computer Science Student, AI/ML Enthusiast & Full Stack Developer at Easwari Engineering College.">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Bootstrap Icons CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+  <!-- Floating Background Mesh Elements -->
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+  <div class="bg-glow bg-glow-3"></div>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-brand">
+        <span class="brand-text">Arshani<span class="brand-dot">.</span></span>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#hero" class="nav-link active"><i class="bi bi-house-door"></i> Home</a></li>
+        <li><a href="#about" class="nav-link"><i class="bi bi-person"></i> About Me</a></li>
+        <li><a href="#services" class="nav-link"><i class="bi bi-gear"></i> Services</a></li>
+        <li><a href="#projects" class="nav-link"><i class="bi bi-code-square"></i> Projects</a></li>
+        <li><a href="#certifications" class="nav-link"><i class="bi bi-patch-check"></i> Credentials</a></li>
+        <li><a href="#contact" class="nav-link nav-btn-contact"><i class="bi bi-envelope"></i> Contact</a></li>
+      </ul>
+
+      <!-- Mobile Hamburger Toggle -->
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu">
+        <i class="bi bi-list icon-open"></i>
+        <i class="bi bi-x-lg icon-close"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Navigation Backdrop Overlay -->
+  <div class="nav-backdrop" id="nav-backdrop"></div>
+
+  <!-- HERO SECTION -->
+  <section class="hero-section" id="hero">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <div class="badge-status">
+          <span class="status-dot"></span> Available for Internships & Projects
+        </div>
+        <h1 class="hero-title">
+          Hi, I'm <span class="gradient-text">Arshani D</span>
+        </h1>
+        <h2 class="hero-subtitle">
+          Second-Year Computer Science Student | <span class="text-accent">AI/ML Enthusiast</span> | Full Stack
+        </h2>
+        <p class="hero-description">
+          Passionate CS undergraduate at <strong>Easwari Engineering College (SRM Group)</strong>. Bridging smart algorithms with seamless user experiences.
+        </p>
+
+        <!-- CTA Buttons -->
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">
+            <i class="bi bi-send-fill"></i> Get In Touch
+          </a>
+          <a href="#projects" class="btn btn-secondary">
+            <i class="bi bi-grid-fill"></i> View Projects
+          </a>
+        </div>
+
+        <!-- Social Links -->
+        <div class="hero-socials">
+          <span class="social-label">Connect with me:</span>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/arshani-d-220967381?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener" class="social-link" title="LinkedIn">
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://github.com/Arshani-cpu" target="_blank" rel="noopener" class="social-link" title="GitHub">
+              <i class="bi bi-github"></i>
+            </a>
+            <a href="https://www.instagram.com/arsh_pixie?utm_source=qr&stkn=MXF1YXU2eGc1d2dlOQ==" target="_blank" rel="noopener" class="social-link" title="Instagram">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="mailto:arshanid070110@gmail.com" class="social-link" title="Email Arshani">
+              <i class="bi bi-envelope-fill"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Avatar Image Frame -->
+      <div class="hero-avatar-wrapper">
+        <div class="avatar-glow-ring"></div>
+        <div class="avatar-card">
+          <img src="/assets/profile.jpg" alt="Arshani D Profile Picture" class="hero-avatar-img">
+        </div>
+        <!-- Floating Tech Pills -->
+        <div class="floating-badge badge-top-right">
+          <i class="bi bi-cpu-fill"></i> AI/ML Enthusiast
+        </div>
+        <div class="floating-badge badge-bottom-left">
+          <i class="bi bi-code-slash"></i> Full Stack Dev
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT ME SECTION WITH INTERACTIVE TABS -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Explore My Journey</span>
+        <h2 class="section-title">🚀 About Me</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="about-grid">
+        <!-- Left: Bio Text Card -->
+        <div class="about-bio-card glass-card">
+          <h3 class="bio-heading">Bridging Smart Algorithms & User Experience</h3>
+          <p class="bio-text">
+            I am a passionate CS undergraduate exploring the intersection of <strong>Artificial Intelligence, Machine Learning, and Full Stack Development</strong>. With a solid foundation in C, C++, Python, and Database Management, I enjoy building solutions that are both intelligent and impactful.
+          </p>
+
+          <ul class="bio-list">
+            <li><i class="bi bi-check-circle-fill"></i> Currently diving deep into Machine Learning concepts and Full Stack technologies</li>
+            <li><i class="bi bi-check-circle-fill"></i> Comfortable working with Python for data-driven applications</li>
+            <li><i class="bi bi-check-circle-fill"></i> Experienced in Database design and management (MySQL, MongoDB, SQL)</li>
+            <li><i class="bi bi-check-circle-fill"></i> Always eager to take on real-world challenges through projects and internships</li>
+          </ul>
+
+          <div class="bio-quote">
+            <i class="bi bi-quote"></i>
+            "I believe the future belongs to those who can bridge the gap between smart algorithms and seamless user experiences — and that's exactly the developer I am working towards becoming."
+          </div>
+        </div>
+
+        <!-- Right: Interactive Tabs (Skills, Experience, Education) -->
+        <div class="about-tabs-card glass-card">
+          <!-- Tab Navigation Buttons -->
+          <div class="tab-buttons">
+            <button class="tab-btn active" data-tab="skills">
+              <i class="bi bi-lightning-charge"></i> Skills
+            </button>
+            <button class="tab-btn" data-tab="experience">
+              <i class="bi bi-briefcase"></i> Experience
+            </button>
+            <button class="tab-btn" data-tab="education">
+              <i class="bi bi-mortarboard"></i> Education
+            </button>
+          </div>
+
+          <!-- Tab Panels Container -->
+          <div class="tab-content">
+
+            <!-- SKILLS TAB -->
+            <div class="tab-panel active" id="tab-skills">
+              <h4 class="tab-title">Technical Expertise & Competencies</h4>
+              
+              <div class="skills-group">
+                <div class="skill-category">
+                  <h5><i class="bi bi-code-slash text-cyan"></i> Web Development</h5>
+                  <div class="pill-tags">
+                    <span class="tag">HTML5</span>
+                    <span class="tag">CSS3</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">Django</span>
+                    <span class="tag">Node.js</span>
+                    <span class="tag">Express.js</span>
+                    <span class="tag">REST APIs</span>
+                  </div>
+                </div>
+
+                <div class="skill-category">
+                  <h5><i class="bi bi-palette text-violet"></i> UI/UX Design</h5>
+                  <div class="pill-tags">
+                    <span class="tag">User Interface Design</span>
+                    <span class="tag">Canva</span>
+                    <span class="tag">Dark Mode UI</span>
+                    <span class="tag">Glassmorphism</span>
+                    <span class="tag">Responsive Layouts</span>
+                  </div>
+                </div>
+
+                <div class="skill-category">
+                  <h5><i class="bi bi-phone text-emerald"></i> Mobile App & Programming</h5>
+                  <div class="pill-tags">
+                    <span class="tag">Mobile App Concepts</span>
+                    <span class="tag">C</span>
+                    <span class="tag">C++</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">Data Structures</span>
+                    <span class="tag">Machine Learning</span>
+                  </div>
+                </div>
+
+                <div class="skill-category">
+                  <h5><i class="bi bi-database text-yellow"></i> Databases & Tools</h5>
+                  <div class="pill-tags">
+                    <span class="tag">MySQL</span>
+                    <span class="tag">MongoDB</span>
+                    <span class="tag">SQL</span>
+                    <span class="tag">VS Code</span>
+                    <span class="tag">Git & GitHub</span>
+                    <span class="tag">MS Office</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- EXPERIENCE TAB -->
+            <div class="tab-panel" id="tab-experience">
+              <h4 class="tab-title">Internships & Industry Projects</h4>
+              
+              <div class="timeline">
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-header">
+                    <h5>Green Skilling Intern</h5>
+                    <span class="timeline-date">1M1B Green Internship</span>
+                  </div>
+                  <p class="timeline-desc">
+                    Participated in a green skilling program focused on sustainability, climate action, and real-world project implementation. Created carbon simulation tools and marketplace models.
+                  </p>
+                </div>
+
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-header">
+                    <h5>Mentorship & Capabilities Trainee</h5>
+                    <span class="timeline-date">Rise 4.0 Internship</span>
+                  </div>
+                  <p class="timeline-desc">
+                    Contributed to a skill-development and mentorship program aimed at building industry-relevant capabilities, problem-solving, and software development practices.
+                  </p>
+                </div>
+
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-header">
+                    <h5>Project Creator</h5>
+                    <span class="timeline-date">Zero Net Navigator & LaunchPad AI</span>
+                  </div>
+                  <p class="timeline-desc">
+                    Engineered full-stack platforms including carbon credit marketplace simulation (Zero Net Navigator) and AI-assisted startup management platform (LaunchPad).
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- EDUCATION TAB -->
+            <div class="tab-panel" id="tab-education">
+              <h4 class="tab-title">Academic Qualifications</h4>
+              
+              <div class="education-cards">
+                <div class="edu-card">
+                  <div class="edu-icon"><i class="bi bi-building"></i></div>
+                  <div class="edu-info">
+                    <h5>Easwari Engineering College (SRM Group)</h5>
+                    <p class="edu-degree">Bachelor of Engineering (B.E.) — Computer Science and Engineering</p>
+                    <div class="edu-meta">
+                      <span class="edu-year">Second Year (Present)</span>
+                      <span class="edu-badge"><i class="bi bi-trophy-fill"></i> CGPA: 9.18</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="edu-card">
+                  <div class="edu-icon"><i class="bi bi-book"></i></div>
+                  <div class="edu-info">
+                    <h5>Vyasa Vidyalaya Matriculation Higher Secondary School</h5>
+                    <p class="edu-degree">Higher Secondary & Secondary Education</p>
+                    <div class="edu-meta">
+                      <span class="edu-year">Completed</span>
+                      <span class="edu-badge">Distinction</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES / EXPERTISE SECTION -->
+  <section class="section services-section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I Do</span>
+        <h2 class="section-title">My Capabilities & Services</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card glass-card">
+          <div class="service-icon icon-cyan">
+            <i class="bi bi-code-slash"></i>
+          </div>
+          <h3>Web Development</h3>
+          <p>Designing and building responsive, performant full-stack web applications using modern HTML, CSS, JavaScript, Node.js, and Django APIs.</p>
+        </div>
+
+        <div class="service-card glass-card">
+          <div class="service-icon icon-violet">
+            <i class="bi bi-palette-fill"></i>
+          </div>
+          <h3>UI/UX Design</h3>
+          <p>Crafting dark glassmorphism interfaces, intuitive layouts, micro-animations, and responsive visual systems using Canva and web standards.</p>
+        </div>
+
+        <div class="service-card glass-card">
+          <div class="service-icon icon-emerald">
+            <i class="bi bi-phone-fill"></i>
+          </div>
+          <h3>Mobile & AI/ML Solutions</h3>
+          <p>Developing data-driven Python applications, Machine Learning models, and mobile app design concepts tailored for real-world problems.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SHOWCASE SECTION -->
+  <section class="section projects-section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Portfolio Showcase</span>
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="All">All Projects</button>
+        <button class="filter-btn" data-filter="AI / Web">AI & Web</button>
+        <button class="filter-btn" data-filter="Sustainability">Sustainability</button>
+        <button class="filter-btn" data-filter="Web">Web Apps</button>
+      </div>
+
+      <!-- Projects Container Grid -->
+      <div class="projects-grid" id="projects-grid">
+        <!-- Dynamically rendered via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS & CREDENTIALS SECTION -->
+  <section class="section cert-section" id="certifications">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Earned Certifications</span>
+        <h2 class="section-title">Credentials & Badges</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="cert-grid" id="cert-grid">
+        <!-- Dynamically rendered via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT & INSTAGRAM QR SECTION -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Let's Connect & Collaborate</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Left: Contact Details & Instagram QR Code -->
+        <div class="contact-info-wrapper">
+          <div class="contact-card glass-card">
+            <h3>Contact Information</h3>
+            <p>Open to internships, project collaborations, and tech discussions!</p>
+
+            <div class="contact-details">
+              <a href="mailto:arshanid070110@gmail.com" class="contact-item">
+                <div class="contact-icon"><i class="bi bi-envelope-fill"></i></div>
+                <div class="contact-text">
+                  <span class="label">Email Me</span>
+                  <span class="value">arshanid070110@gmail.com</span>
+                </div>
+              </a>
+
+              <a href="tel:8807812742" class="contact-item">
+                <div class="contact-icon"><i class="bi bi-telephone-fill"></i></div>
+                <div class="contact-text">
+                  <span class="label">Call Me</span>
+                  <span class="value">+91 8807812742</span>
+                </div>
+              </a>
+
+              <div class="contact-item">
+                <div class="contact-icon"><i class="bi bi-geo-alt-fill"></i></div>
+                <div class="contact-text">
+                  <span class="label">Location</span>
+                  <span class="value">Chennai, Tamil Nadu, India</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Links -->
+            <div class="contact-social-bar">
+              <a href="https://www.linkedin.com/in/arshani-d-220967381?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener" class="contact-social-btn" title="LinkedIn">
+                <i class="bi bi-linkedin"></i> LinkedIn
+              </a>
+              <a href="https://github.com/Arshani-cpu" target="_blank" rel="noopener" class="contact-social-btn" title="GitHub">
+                <i class="bi bi-github"></i> GitHub
+              </a>
+            </div>
+          </div>
+
+          <!-- Instagram QR Code Card -->
+          <div class="qr-card glass-card">
+            <div class="qr-info">
+              <h4><i class="bi bi-instagram gradient-text"></i> Connect on Instagram</h4>
+              <p>Scan QR code or click to view <strong>@arsh_pixie</strong></p>
+            </div>
+            <a href="https://www.instagram.com/arsh_pixie?utm_source=qr&stkn=MXF1YXU2eGc1d2dlOQ==" target="_blank" rel="noopener" class="qr-link">
+              <img src="/assets/instagram_qr.png" alt="Arshani Instagram QR Code @arsh_pixie" class="qr-image">
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: Interactive Contact Form -->
+        <div class="contact-form-card glass-card">
+          <h3>Send A Message</h3>
+          <form id="contact-form" class="contact-form">
+            <div class="form-group">
+              <label for="name">Your Name *</label>
+              <input type="text" id="name" name="name" required placeholder="Enter your full name">
+            </div>
+
+            <div class="form-group">
+              <label for="email">Your Email *</label>
+              <input type="email" id="email" name="email" required placeholder="name@example.com">
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Project Inquiry / Internship Opportunity">
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" rows="5" required placeholder="Type your message here..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-submit" id="submit-btn">
+              <i class="bi bi-send-fill"></i> Send Message
+            </button>
+            <div class="form-response" id="form-response"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>&copy; 2026 <strong>Arshani D</strong>. All Rights Reserved.</p>
+      <p class="footer-subtext">Built with HTML5, CSS3, JavaScript & Node.js Express</p>
+    </div>
+  </footer>
+
+  <!-- PROJECT DETAILS MODAL -->
+  <div class="modal-overlay" id="project-modal">
+    <div class="modal-card glass-card">
+      <button class="modal-close" id="modal-close" aria-label="Close modal"><i class="bi bi-x-lg"></i></button>
+      <div class="modal-body" id="modal-body">
+        <!-- Rendered via JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Client Script -->
+  <script src="/app.js"></script>
+</body>
+</html>

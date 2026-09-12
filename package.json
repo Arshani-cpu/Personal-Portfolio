@@ -1,0 +1,27 @@
+{
+  "name": "arshani-portfolio",
+  "version": "1.0.0",
+  "description": "Full-Stack Personal Portfolio Website for Arshani D",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "portfolio",
+    "express",
+    "nodejs",
+    "fullstack",
+    "ai-ml",
+    "arshani"
+  ],
+  "author": "Arshani D",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^4.22.2",
+    "mongoose": "^9.10.0",
+    "mysql2": "^3.24.4"
+  }
+}
