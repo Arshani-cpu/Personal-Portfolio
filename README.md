@@ -31,33 +31,13 @@ A modern, responsive, full-stack personal portfolio application built for **Arsh
 4. **Deployment Ready**:
    - Configured for one-click deployment on **Vercel** (`vercel.json`), **Netlify**, or **Heroku** (`Procfile`).
 
----
-
-## 🚀 How to Run Locally
-
-### 1. Install Dependencies
-```bash
-cmd.exe /c "npm install"
-```
-
-### 2. Start the Server
-```bash
-cmd.exe /c "npm start"
-```
-
 Open your browser and navigate to:
-**http://localhost:3000**
+https://arshani-portfolio.vercel.app/
 
 ---
 
 ## ☁️ Deployment Instructions
 
-### Deploy on Vercel
-1. Install Vercel CLI or connect your GitHub repository to [Vercel](https://vercel.com).
-2. Run `vercel` in the project root.
-3. Add Environment Variable (Optional): `MONGO_URI`.
 
-### Deploy on Heroku / Render / Railway
-1. Push repository to GitHub.
 2. Connect repository to Heroku/Render.
 3. The included `Procfile` will automatically execute `node server.js`.
